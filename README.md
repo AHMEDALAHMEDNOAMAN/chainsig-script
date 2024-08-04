@@ -91,7 +91,7 @@ Usage: `yarn start [commands]`
 - -c, -call - call contract method
 - --path - path to EVM bytecode file from root of this project
 - --method - name of method view/call
-- --args - arguments e.g. '{"address":"0x525521d79134822a342d330bd91da67976569af1"}' in single quotes
+- --args - arguments e.g. '{"address":"0xEe21B202212B03070B37320E9c2d7041FFcEAd31"}' in single quotes
 - --ret - list of return parameter types (if any) e.g. ['uint256']
 
 ## NFT Example
@@ -108,13 +108,13 @@ Take contract address from console result and call:
 
 2. `yarn start -c --to 0x[CONTRACT ADDRESS FROM STEP 1]`
 
-This will mint a token to default address `0x525521d79134822a342d330bd91da67976569af1`.
+This will mint a token to default address `0xEe21B202212B03070B37320E9c2d7041FFcEAd31`.
 
 View the balanance of the default address using:
 
 3. `yarn start -v --to 0x[CONTRACT ADDRESS FROM STEP 1]`
 
-Which should output `1` the NFT balance of default address `0x525521d79134822a342d330bd91da67976569af1`
+Which should output `1` the NFT balance of default address `0xEe21B202212B03070B37320E9c2d7041FFcEAd31`
 
 # Proxy call MPC sign from NEAR Contract (advanced)
 
