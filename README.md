@@ -64,13 +64,13 @@ TATUM_API_KEY=""
 
 ### Command List
 
-- -ea - ethereum addressm (EVM)
-- -ba - bitcoin testnet address
+- -ea - ethereum addressm (0x165002AA8dC4ED29f9e49793912a2b946a1d971f)
+bc1qnvmfvqxyfzrl3wjzgs036wyjr7fg7r42kd6nxea - bitcoin testnet address
 - -da - dogecoin testnet address
 - -ra - ripple testnet address
 - -s - sign sample payload using NEAR account
-- -etx - send ETH
-- -btx - send BTC
+- -etx - send ETH0xEe21B202212B03070B37320E9c2d7041FFcEAd31
+- -btx - send BTCbc1p8fmhtw69mn0uzxuep5ngll44m2rsdatfr2zv290ummzlxxde9uus3zg82g
 - -dtx - send DOGE (requires API KEY)
 - -rtx - send XRP
 
